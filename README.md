@@ -1,4 +1,4 @@
-# Deployed Live at : rohan-gif-generator.netlify.app
+# Deployed Live at : https://rohan-gif-generator.netlify.app/
 
 # Getting Started with Create React App
 

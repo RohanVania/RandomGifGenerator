@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useGif from '../hooks/useGif';
 
 
@@ -33,7 +33,7 @@ const Random = () => {
                 Random Gif
             </h1>
             {!loading ? (<div className='tw-w-[99%] sm:tw-w-[60%] tw-h-[410px]  ' >
-                <img className='tw-w-full tw-h-full tw-object-contain' src={gif} />
+                <img className='tw-w-full tw-h-full tw-object-contain' src={gif} alt='decoration'/>
             </div>) : (<div class="spinner"></div>)
             }
 

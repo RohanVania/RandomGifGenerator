@@ -37,7 +37,7 @@ const Tag = () => {
                 Random {tag} Gif
             </h1>
             {!loading ? (<div className='tw-w-[99%] sm:tw-w-[60%] tw-h-[410px]  ' >
-                <img className='tw-w-full tw-h-full tw-object-contain' src={gif} />
+                <img className='tw-w-full tw-h-full tw-object-contain' src={gif} alt='i-10000'/>
             </div>) : (<div className="spinner"></div>)
             }
             <div className='tw-w-full tw-space-y-2'>
